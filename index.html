@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="app">
+        <header>
+           <div class="bg-img"></div>
+            <div class="bg-text">
+                <h1>Hi I am Tai Nguyen</h1>
+                <p>And I'm a Photographer</p>
+            </div>
+        </header>
+        <div class="navbar">
+            <ul class="navbar-list">
+                <li class="navbar-items">
+                    HOME
+                </li>
+                <li class="navbar-items">ABOUT</li>
+                <li class="navbar-items">CONTACT</li>
+                <li class="navbar-items"  onclick="dropDown()">
+                    MORE
+
+                    <div id="myDrop" class="dropdown-content">
+                        <a href="">HOME</a>
+                        <a href="">CONTACT</a>
+                        <a href="">ABOUT</a>
+                        <a href="">MORE</a>
+                    </div>
+                </li>
+            </ul>
+            <ul class="navbar-list">
+                <li class="navbar-items">
+                    <i class='bx bx-search'></i>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
